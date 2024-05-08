@@ -5,12 +5,13 @@ body{
     flex-direction: column;
     font-family: Roboto, sans-serif;
     width:1440px;
-    height:1912px;
+
+    box-sizing: border-box;
 }
 
 header, .hero-mid{
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 8em;
+    margin-right: 8em;
     margin-top: 1em;
 }
 
@@ -18,6 +19,7 @@ header, .hero-mid{
 /* HERO and TOP PART */
 .hero{
     background-color: #1F2937;
+    height: 600px;
 }
 
 
@@ -81,6 +83,10 @@ li a {
     max-width: 100px;
     padding: 8px;
     margin-top: 16px;
+    border: 1px solid white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color:#F9FAF8
   }
 
 /* SECOND SECTION */
@@ -88,6 +94,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 500px;
   }
 
   .second-section-header{
@@ -112,13 +119,14 @@ li a {
   }
 
   .square{
-    border: 3px solid blue;
+    border: 3px solid #3882F6;
     border-radius: 30px;
     height: 175px;
     width: 175px;
   }
 
   .squaretext{
+    margin-top: 16px;
     text-align: center;
   }
 
@@ -154,3 +162,36 @@ li a {
   }
 
   /* Fourth Section */
+
+  .fourth-section{
+    height: 312px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#F9FAF8
+  }
+
+  .fourth-sectioncontainer{
+    height: 100px;
+    width: 900px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+  }
+
+  .calltoaction{
+    font-weight: 900;
+  }
+
+  /* Footer */
+  footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    color: #F9FAF8;
+
+  }
