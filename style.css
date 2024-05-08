@@ -3,9 +3,19 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: Roboto, sans-serif;    
+    font-family: Roboto, sans-serif;
+    width:1440px;
+    height:1912px;
 }
 
+header, .hero-mid{
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 1em;
+}
+
+
+/* HERO and TOP PART */
 .hero{
     background-color: #1F2937;
 }
@@ -14,7 +24,7 @@ body{
 header{
  display: flex;
  justify-content: space-around;
- padding: 16px;   
+ /* padding: 16px;    */
 }
 
 .logo{
@@ -22,7 +32,6 @@ font-size: 24px;
 font-weight: bolder;
 color: #F9FAF8;
 }
-
 
 .link-list{
     margin-left: auto;
@@ -43,3 +52,105 @@ li a {
     font-size: 18px;
     color: #E5E7EB;
   }
+
+/* Hero Mid Part */
+.hero-mid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.hero-left-side{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+  .hero-left-toptext{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+
+  .hero-left-bottomtext{
+    font-size: 18px;
+    color: #E5E7EB;    
+  }
+
+  button{
+    max-width: 100px;
+    padding: 8px;
+    margin-top: 16px;
+  }
+
+/* SECOND SECTION */
+  .second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second-section-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .squares{
+    display: flex;
+    gap: 3em;
+  }
+
+  .squarecontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    margin-bottom: 100px;
+  }
+
+  .square{
+    border: 3px solid blue;
+    border-radius: 30px;
+    height: 175px;
+    width: 175px;
+  }
+
+  .squaretext{
+    text-align: center;
+  }
+
+  /* Third Section */
+
+  .third-sectioncontainer{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .third-section{
+    width: 900px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+    color: #1F2937;
+
+  }
+
+  .signature{
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: auto;
+    color: #1F2937;
+  }
+
+  /* Fourth Section */
